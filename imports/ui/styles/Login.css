@@ -1,0 +1,22 @@
+.form-login {
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    padding: 20px 0 10px 20px;
+}
+
+.form-register {
+    border-radius: 0;
+    margin-left: 10px;
+    padding: 0 0 10px 20px;
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+}
+
+button {
+    margin-top: 10px;
+}

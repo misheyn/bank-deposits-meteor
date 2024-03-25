@@ -1,0 +1,102 @@
+.page {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.resource-profile {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.resource-info h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.resource-info label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.resource-info div {
+  margin-bottom: 5px;
+}
+
+.edit-button {
+  background-color: #fac004;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button {
+  background-color: #ea0303;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #4f0000;
+}
+.edit-button:hover {
+  background-color: #c05406;
+}
+
+.resource-profile button {
+  display: flex;
+  align-items: center;
+}
+
+.resource-list {
+  background-color: #c6ecc6;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  width: 200px;
+}
+
+.resource-list>div {
+  flex: 0 0 auto;
+  border: 1px solid #93bf93;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  white-space: normal;
+}
+
+.resource-list>div:hover {
+  background-color: #f0f0f0;
+}
+
+.resource-list label {
+  font-size: 16px;
+}
+
+.resource-list h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.resource-info {
+  flex-grow: 1;
+  margin: 10px 0;
+}
+
+.form-edit {
+  margin-left: 30px;
+}

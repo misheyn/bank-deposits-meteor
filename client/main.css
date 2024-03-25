@@ -1,0 +1,23 @@
+body {
+  padding: 10px;
+  font-family: "Comic Sans MS", sans-serif;
+  background-color: #f0f0f0;
+  color: #000000;
+}
+
+button {
+  height: fit-content;
+  width: fit-content;
+}
+
+label {
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+form {
+  background-color: #ef9eea;
+  padding: 20px;
+  border-radius: 8px;
+}
+
